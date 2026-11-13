@@ -1,0 +1,1642 @@
+{
+  "version": "2026.11-demo",
+  "generated_by": "data/build_seed.py",
+  "products": [
+    {
+      "id": "P001",
+      "title": "星海 X1 Pro 5G 手机 256GB",
+      "brand": "星海",
+      "model": "X1 Pro",
+      "category": "手机",
+      "specs": "12GB + 256GB，曜石黑",
+      "image": "/static/products/p001.png",
+      "tags": [
+        "国补示例",
+        "旗舰",
+        "百亿补贴"
+      ],
+      "description": "旗舰影像与长续航，演示“标价最低不等于到手最低”的核心场景。",
+      "featured": true,
+      "offers": [
+        {
+          "id": "O001-JD",
+          "product_id": "P001",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 5899,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P001",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B001-JD-STORE",
+              "name": "店铺券 满 5000 减 100",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 100,
+              "source": "mock",
+              "threshold": 5000
+            },
+            {
+              "id": "B-JD-PLATFORM-5000-200",
+              "name": "京东平台券 满 5000 减 200",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 200,
+              "source": "mock",
+              "threshold": 5000,
+              "stack_group": "jd_platform_coupon"
+            }
+          ]
+        },
+        {
+          "id": "O001-TB",
+          "product_id": "P001",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 5999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P001",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B001-TB-STORE",
+              "name": "店铺券 满 5000 减 400",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 400,
+              "source": "mock",
+              "threshold": 5000
+            }
+          ]
+        },
+        {
+          "id": "O001-PDD",
+          "product_id": "P001",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 5499,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P001",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B001-PDD-BAIYI",
+              "name": "百亿补贴活动价",
+              "kind": "platform_subsidy",
+              "stage": 0,
+              "scope": "item",
+              "value_type": "price_override",
+              "value": 5299,
+              "source": "mock",
+              "description": "平台活动价 5299 元，作为到手价计算的起点。"
+            }
+          ]
+        },
+        {
+          "id": "O001-DY",
+          "product_id": "P001",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 5799,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P001",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B001-DY-PLATFORM",
+              "name": "直播间平台券 满 5000 减 150",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 150,
+              "source": "mock",
+              "threshold": 5000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P002",
+      "title": "灵越 Air 14 轻薄本 16GB+512GB",
+      "brand": "灵越",
+      "model": "Air 14",
+      "category": "笔记本",
+      "specs": "16GB + 512GB，月光银",
+      "image": "/static/products/p002.png",
+      "tags": [
+        "电脑补贴示例",
+        "88VIP",
+        "返利"
+      ],
+      "description": "演示会员折扣、平台券与返利组合后的净价比较。",
+      "featured": true,
+      "offers": [
+        {
+          "id": "O002-JD",
+          "product_id": "P002",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 4899,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P002",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B002-JD-PLATFORM",
+              "name": "京东平台券 满 4000 减 100",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 100,
+              "source": "mock",
+              "threshold": 4000
+            },
+            {
+              "id": "B002-JD-PAY",
+              "name": "白条支付立减 50",
+              "kind": "payment_discount",
+              "stage": 8,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 50,
+              "source": "mock"
+            }
+          ]
+        },
+        {
+          "id": "O002-TB",
+          "product_id": "P002",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 4999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P002",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B002-TB-STORE",
+              "name": "店铺券 满 4000 减 200",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 200,
+              "source": "mock",
+              "threshold": 4000
+            },
+            {
+              "id": "B002-TB-VIP",
+              "name": "88VIP 95 折",
+              "kind": "member",
+              "stage": 4,
+              "scope": "platform",
+              "value_type": "percent",
+              "value": 5,
+              "source": "mock",
+              "max_discount": 300,
+              "requires": {
+                "memberships": [
+                  "88VIP"
+                ]
+              }
+            },
+            {
+              "id": "B002-TB-REBATE",
+              "name": "淘宝返利 2%",
+              "kind": "rebate",
+              "stage": 9,
+              "scope": "platform",
+              "value_type": "percent",
+              "value": 2,
+              "source": "mock",
+              "max_discount": 100,
+              "description": "按实付金额估算返利，不直接降低支付金额。"
+            }
+          ]
+        },
+        {
+          "id": "O002-PDD",
+          "product_id": "P002",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 4999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P002",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O002-DY",
+          "product_id": "P002",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 4899,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P002",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B002-DY-PLATFORM",
+              "name": "直播间优惠券 50",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 50,
+              "source": "mock",
+              "threshold": 4000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P003",
+      "title": "声阔 Pods Pro 主动降噪耳机",
+      "brand": "声阔",
+      "model": "Pods Pro",
+      "category": "耳机",
+      "specs": "入耳式，星云白",
+      "image": "/static/products/p003.png",
+      "tags": [
+        "降噪",
+        "凑单候选"
+      ],
+      "description": "价格较低，适合演示购物车拆单与店铺券的行级计算。",
+      "featured": false,
+      "offers": [
+        {
+          "id": "O003-JD",
+          "product_id": "P003",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 1299,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P003",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B003-JD-STORE",
+              "name": "店铺券 满 1000 减 100",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 100,
+              "source": "mock",
+              "threshold": 1000
+            },
+            {
+              "id": "JD-FULL-3000-300",
+              "name": "京东跨店满 3000 减 300",
+              "kind": "full_reduction",
+              "stage": 3,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 300,
+              "source": "mock",
+              "threshold": 3000,
+              "description": "示例：订单小计满 3000 元可用，同一平台订单合并计算。"
+            }
+          ]
+        },
+        {
+          "id": "O003-TB",
+          "product_id": "P003",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 1199,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P003",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B003-TB-STORE",
+              "name": "店铺券 满 1000 减 80",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 80,
+              "source": "mock",
+              "threshold": 1000
+            },
+            {
+              "id": "TB-FULL-4000-400",
+              "name": "淘宝跨店满 4000 减 400",
+              "kind": "full_reduction",
+              "stage": 3,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 400,
+              "source": "mock",
+              "threshold": 4000,
+              "description": "示例：订单小计满 4000 元可用，同一平台订单合并计算。"
+            }
+          ]
+        },
+        {
+          "id": "O003-PDD",
+          "product_id": "P003",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 1099,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P003",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O003-DY",
+          "product_id": "P003",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 1249,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P003",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B003-DY-PLATFORM",
+              "name": "直播间券 50",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 50,
+              "source": "mock",
+              "threshold": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P004",
+      "title": "净界 空气净化器 Pro",
+      "brand": "净界",
+      "model": "Air Pro",
+      "category": "家电",
+      "specs": "适用 60㎡，除醛增强版",
+      "image": "/static/products/p004.png",
+      "tags": [
+        "国补示例",
+        "以旧换新",
+        "浙江加码"
+      ],
+      "description": "演示国补、地区加码与以旧换新三类补贴的叠加和顺序。",
+      "featured": true,
+      "offers": [
+        {
+          "id": "O004-JD",
+          "product_id": "P004",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 3299,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P004",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B004-JD-PLATFORM",
+              "name": "京东平台券 满 3000 减 200",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 200,
+              "source": "mock",
+              "threshold": 3000
+            }
+          ]
+        },
+        {
+          "id": "O004-TB",
+          "product_id": "P004",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 3399,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P004",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B004-TB-STORE",
+              "name": "店铺券 满 3000 减 300",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 300,
+              "source": "mock",
+              "threshold": 3000
+            }
+          ]
+        },
+        {
+          "id": "O004-PDD",
+          "product_id": "P004",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 3199,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P004",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O004-DY",
+          "product_id": "P004",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 3399,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P004",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B004-DY-PLATFORM",
+              "name": "直播间券 100",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 100,
+              "source": "mock",
+              "threshold": 3000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P005",
+      "title": "云鲸 扫地机器人 J6",
+      "brand": "云鲸",
+      "model": "J6",
+      "category": "清洁电器",
+      "specs": "自动集尘，银灰",
+      "image": "/static/products/p005.png",
+      "tags": [
+        "满减凑单",
+        "拆单示例"
+      ],
+      "description": "演示“差 80 元满减”时，如何用凑单或换平台降低实付。",
+      "featured": true,
+      "offers": [
+        {
+          "id": "O005-JD",
+          "product_id": "P005",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 2920,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P005",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "JD-FULL-3000-300",
+              "name": "京东跨店满 3000 减 300",
+              "kind": "full_reduction",
+              "stage": 3,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 300,
+              "source": "mock",
+              "threshold": 3000,
+              "description": "示例：订单小计满 3000 元可用，同一平台订单合并计算。"
+            }
+          ]
+        },
+        {
+          "id": "O005-TB",
+          "product_id": "P005",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 3199,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P005",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "TB-FULL-4000-400",
+              "name": "淘宝跨店满 4000 减 400",
+              "kind": "full_reduction",
+              "stage": 3,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 400,
+              "source": "mock",
+              "threshold": 4000,
+              "description": "示例：订单小计满 4000 元可用，同一平台订单合并计算。"
+            }
+          ]
+        },
+        {
+          "id": "O005-PDD",
+          "product_id": "P005",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 2999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P005",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O005-DY",
+          "product_id": "P005",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 2949,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P005",
+          "source": "mock",
+          "benefits": []
+        }
+      ]
+    },
+    {
+      "id": "P006",
+      "title": "极光 智能投影仪 P3",
+      "brand": "极光",
+      "model": "P3",
+      "category": "影音",
+      "specs": "1080P，自动对焦",
+      "image": "/static/products/p006.png",
+      "tags": [
+        "跨平台拆单"
+      ],
+      "description": "与扫地机、耳机组成三件购物车，演示跨平台拆单。",
+      "featured": false,
+      "offers": [
+        {
+          "id": "O006-JD",
+          "product_id": "P006",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 2999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P006",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "JD-FULL-3000-300",
+              "name": "京东跨店满 3000 减 300",
+              "kind": "full_reduction",
+              "stage": 3,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 300,
+              "source": "mock",
+              "threshold": 3000,
+              "description": "示例：订单小计满 3000 元可用，同一平台订单合并计算。"
+            }
+          ]
+        },
+        {
+          "id": "O006-TB",
+          "product_id": "P006",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 2899,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P006",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "TB-FULL-4000-400",
+              "name": "淘宝跨店满 4000 减 400",
+              "kind": "full_reduction",
+              "stage": 3,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 400,
+              "source": "mock",
+              "threshold": 4000,
+              "description": "示例：订单小计满 4000 元可用，同一平台订单合并计算。"
+            }
+          ]
+        },
+        {
+          "id": "O006-PDD",
+          "product_id": "P006",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 2799,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P006",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O006-DY",
+          "product_id": "P006",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 2899,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P006",
+          "source": "mock",
+          "benefits": []
+        }
+      ]
+    },
+    {
+      "id": "P007",
+      "title": "星环 智能手表 S2",
+      "brand": "星环",
+      "model": "S2",
+      "category": "穿戴",
+      "specs": "46mm，蓝牙通话",
+      "image": "/static/products/p007.png",
+      "tags": [
+        "百亿补贴"
+      ],
+      "description": "多个平台到手价接近，用于演示同价时的净价与规则排序。",
+      "featured": false,
+      "offers": [
+        {
+          "id": "O007-JD",
+          "product_id": "P007",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P007",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B007-JD-PLATFORM",
+              "name": "平台券 满 800 减 100",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 100,
+              "source": "mock",
+              "threshold": 800
+            }
+          ]
+        },
+        {
+          "id": "O007-TB",
+          "product_id": "P007",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P007",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B007-TB-STORE",
+              "name": "店铺券 50",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 50,
+              "source": "mock",
+              "threshold": 800
+            },
+            {
+              "id": "B007-TB-PLATFORM",
+              "name": "平台券 50",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 50,
+              "source": "mock",
+              "threshold": 800
+            }
+          ]
+        },
+        {
+          "id": "O007-PDD",
+          "product_id": "P007",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 949,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P007",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B007-PDD-BAIYI",
+              "name": "百亿补贴价",
+              "kind": "platform_subsidy",
+              "stage": 0,
+              "scope": "item",
+              "value_type": "price_override",
+              "value": 899,
+              "source": "mock"
+            }
+          ]
+        },
+        {
+          "id": "O007-DY",
+          "product_id": "P007",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 949,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P007",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B007-DY-PLATFORM",
+              "name": "直播间券 50",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 50,
+              "source": "mock",
+              "threshold": 800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P008",
+      "title": "松下 滚筒洗衣机 10kg",
+      "brand": "松下",
+      "model": "XQG100",
+      "category": "家电",
+      "specs": "10kg 变频，除菌洗",
+      "image": "/static/products/p008.png",
+      "tags": [
+        "国补示例",
+        "以旧换新"
+      ],
+      "description": "高客单价家电，演示平台券、国补、地区加码与旧机抵扣。",
+      "featured": true,
+      "offers": [
+        {
+          "id": "O008-JD",
+          "product_id": "P008",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 4599,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P008",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B008-JD-PLATFORM",
+              "name": "京东平台券 满 4000 减 300",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 300,
+              "source": "mock",
+              "threshold": 4000
+            }
+          ]
+        },
+        {
+          "id": "O008-TB",
+          "product_id": "P008",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 4699,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P008",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B008-TB-STORE",
+              "name": "店铺券 满 4000 减 400",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 400,
+              "source": "mock",
+              "threshold": 4000
+            }
+          ]
+        },
+        {
+          "id": "O008-PDD",
+          "product_id": "P008",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 4499,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P008",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O008-DY",
+          "product_id": "P008",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 4599,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P008",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B008-DY-PLATFORM",
+              "name": "直播间券 200",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 200,
+              "source": "mock",
+              "threshold": 4000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P009",
+      "title": "追风 高速吹风机",
+      "brand": "追风",
+      "model": "Hurricane",
+      "category": "个护",
+      "specs": "11 万转，恒温护发",
+      "image": "/static/products/p009.png",
+      "tags": [
+        "个护"
+      ],
+      "description": "无国补品类，演示纯平台优惠的组合。",
+      "featured": false,
+      "offers": [
+        {
+          "id": "O009-JD",
+          "product_id": "P009",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 2999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P009",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B009-JD-PLATFORM",
+              "name": "平台券 满 2500 减 200",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 200,
+              "source": "mock",
+              "threshold": 2500
+            }
+          ]
+        },
+        {
+          "id": "O009-TB",
+          "product_id": "P009",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 2899,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P009",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B009-TB-STORE",
+              "name": "店铺券 满 2000 减 150",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 150,
+              "source": "mock",
+              "threshold": 2000
+            }
+          ]
+        },
+        {
+          "id": "O009-PDD",
+          "product_id": "P009",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 2799,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P009",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O009-DY",
+          "product_id": "P009",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 2849,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P009",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B009-DY-PLATFORM",
+              "name": "直播间券 50",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 50,
+              "source": "mock",
+              "threshold": 2000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P010",
+      "title": "星海 Pad Air 11 平板",
+      "brand": "星海",
+      "model": "Pad Air 11",
+      "category": "平板",
+      "specs": "8GB + 256GB，星光色",
+      "image": "/static/products/p010.png",
+      "tags": [
+        "平板补贴示例",
+        "88VIP"
+      ],
+      "description": "演示会员权益对平板补贴场景的影响。",
+      "featured": true,
+      "offers": [
+        {
+          "id": "O010-JD",
+          "product_id": "P010",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 3899,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P010",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B010-JD-PLATFORM",
+              "name": "平台券 满 3500 减 200",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 200,
+              "source": "mock",
+              "threshold": 3500
+            }
+          ]
+        },
+        {
+          "id": "O010-TB",
+          "product_id": "P010",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 3999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P010",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B010-TB-STORE",
+              "name": "店铺券 满 3500 减 300",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 300,
+              "source": "mock",
+              "threshold": 3500
+            },
+            {
+              "id": "B010-TB-VIP",
+              "name": "88VIP 95 折",
+              "kind": "member",
+              "stage": 4,
+              "scope": "platform",
+              "value_type": "percent",
+              "value": 5,
+              "source": "mock",
+              "max_discount": 300,
+              "requires": {
+                "memberships": [
+                  "88VIP"
+                ]
+              }
+            },
+            {
+              "id": "B010-TB-REBATE",
+              "name": "返利 2%",
+              "kind": "rebate",
+              "stage": 9,
+              "scope": "platform",
+              "value_type": "percent",
+              "value": 2,
+              "source": "mock",
+              "max_discount": 80
+            }
+          ]
+        },
+        {
+          "id": "O010-PDD",
+          "product_id": "P010",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 3799,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P010",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O010-DY",
+          "product_id": "P010",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 3899,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P010",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B010-DY-PLATFORM",
+              "name": "直播间券 100",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 100,
+              "source": "mock",
+              "threshold": 3500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P011",
+      "title": "战刃 游戏本 16  RTX 独显",
+      "brand": "战刃",
+      "model": "Blade 16",
+      "category": "笔记本",
+      "specs": "16GB + 1TB，2.5K 165Hz",
+      "image": "/static/products/p011.png",
+      "tags": [
+        "价格上限示例"
+      ],
+      "description": "售价超过示例补贴上限，用于演示“有补贴规则但不符合资格”。",
+      "featured": false,
+      "offers": [
+        {
+          "id": "O011-JD",
+          "product_id": "P011",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "品牌京东自营旗舰店",
+          "list_price": 7999,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P011",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B011-JD-PLATFORM",
+              "name": "平台券 满 7000 减 300",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 300,
+              "source": "mock",
+              "threshold": 7000
+            }
+          ]
+        },
+        {
+          "id": "O011-TB",
+          "product_id": "P011",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "品牌官方旗舰店",
+          "list_price": 7899,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P011",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B011-TB-STORE",
+              "name": "店铺券 满 7000 减 400",
+              "kind": "store_coupon",
+              "stage": 1,
+              "scope": "shop",
+              "value_type": "fixed",
+              "value": 400,
+              "source": "mock",
+              "threshold": 7000
+            }
+          ]
+        },
+        {
+          "id": "O011-PDD",
+          "product_id": "P011",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "百亿补贴官方频道",
+          "list_price": 7699,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P011",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O011-DY",
+          "product_id": "P011",
+          "platform": "douyin",
+          "platform_name": "抖音",
+          "shop_name": "品牌官方直播间",
+          "list_price": 7799,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/douyin/P011",
+          "source": "mock",
+          "benefits": [
+            {
+              "id": "B011-DY-PLATFORM",
+              "name": "直播间券 100",
+              "kind": "platform_coupon",
+              "stage": 2,
+              "scope": "platform",
+              "value_type": "fixed",
+              "value": 100,
+              "source": "mock",
+              "threshold": 7000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P012",
+      "title": "简物 桌面收纳盒",
+      "brand": "简物",
+      "model": "Box Mini",
+      "category": "家居",
+      "specs": "双层抽屉式，米白",
+      "image": "/static/products/p012.png",
+      "tags": [
+        "凑单候选"
+      ],
+      "description": "89 元的低价商品，用于演示凑单后实付反而下降。",
+      "featured": false,
+      "offers": [
+        {
+          "id": "O012-JD",
+          "product_id": "P012",
+          "platform": "jd",
+          "platform_name": "京东",
+          "shop_name": "简物京东自营旗舰店",
+          "list_price": 89,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/jd/P012",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O012-TB",
+          "product_id": "P012",
+          "platform": "taobao",
+          "platform_name": "淘宝",
+          "shop_name": "简物官方旗舰店",
+          "list_price": 99,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/taobao/P012",
+          "source": "mock",
+          "benefits": []
+        },
+        {
+          "id": "O012-PDD",
+          "product_id": "P012",
+          "platform": "pdd",
+          "platform_name": "拼多多",
+          "shop_name": "简物工厂店",
+          "list_price": 79,
+          "shipping_fee": 0,
+          "url": "https://example.com/demo/pdd/P012",
+          "source": "mock",
+          "benefits": []
+        }
+      ]
+    }
+  ],
+  "subsidy_rules": [
+    {
+      "id": "R-MOBILE-15",
+      "name": "手机购新补贴（示例）",
+      "type": "national_subsidy",
+      "regions": [
+        "全国"
+      ],
+      "categories": [
+        "手机"
+      ],
+      "platforms": [
+        "taobao"
+      ],
+      "price_cap": 6000,
+      "price_cap_base": "list",
+      "percent": 15,
+      "max_discount": 500,
+      "stage": 6,
+      "stack_group": "national_subsidy",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "description": "按券后价 15% 估算，单件最高 500 元；本示例仅淘宝参与。",
+      "source": "示例政策",
+      "version": "2026.1",
+      "priority": 10
+    },
+    {
+      "id": "R-APPLIANCE-15",
+      "name": "家电购新补贴（示例）",
+      "type": "national_subsidy",
+      "regions": [
+        "全国"
+      ],
+      "categories": [
+        "家电"
+      ],
+      "platforms": [
+        "jd",
+        "taobao",
+        "pdd",
+        "douyin"
+      ],
+      "price_cap": 6000,
+      "price_cap_base": "list",
+      "percent": 15,
+      "max_discount": 500,
+      "stage": 6,
+      "stack_group": "national_subsidy",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "description": "按券后价 15% 估算，单件最高 500 元。",
+      "source": "示例政策",
+      "version": "2026.1",
+      "priority": 10
+    },
+    {
+      "id": "R-ZHEJIANG-EXTRA",
+      "name": "浙江家电加码补贴（示例）",
+      "type": "province_subsidy",
+      "regions": [
+        "浙江"
+      ],
+      "categories": [
+        "家电"
+      ],
+      "platforms": [
+        "jd",
+        "taobao",
+        "pdd",
+        "douyin"
+      ],
+      "percent": 5,
+      "max_discount": 200,
+      "stage": 6,
+      "stack_group": "province_extra_zhejiang",
+      "effective_from": "2026-06-01",
+      "effective_to": "2026-12-31",
+      "description": "示例：浙江地区家电加码 5%，最高 200 元，可与国补叠加。",
+      "source": "示例政策",
+      "version": "2026.2",
+      "priority": 20
+    },
+    {
+      "id": "R-LAPTOP-10",
+      "name": "电脑购新补贴（示例）",
+      "type": "national_subsidy",
+      "regions": [
+        "全国"
+      ],
+      "categories": [
+        "笔记本"
+      ],
+      "platforms": [
+        "jd",
+        "taobao",
+        "pdd",
+        "douyin"
+      ],
+      "price_cap": 7000,
+      "price_cap_base": "list",
+      "percent": 10,
+      "max_discount": 500,
+      "stage": 6,
+      "stack_group": "national_subsidy",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "description": "售价不超过 7000 元的部分电脑可享 10% 补贴，单件最高 500 元。",
+      "source": "示例政策",
+      "version": "2026.1",
+      "priority": 10
+    },
+    {
+      "id": "R-TABLET-10",
+      "name": "平板购新补贴（示例）",
+      "type": "national_subsidy",
+      "regions": [
+        "全国"
+      ],
+      "categories": [
+        "平板"
+      ],
+      "platforms": [
+        "jd",
+        "taobao",
+        "pdd",
+        "douyin"
+      ],
+      "price_cap": 7000,
+      "price_cap_base": "list",
+      "percent": 10,
+      "max_discount": 500,
+      "stage": 6,
+      "stack_group": "national_subsidy",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "description": "售价不超过 7000 元的平板可享 10% 补贴，单件最高 500 元。",
+      "source": "示例政策",
+      "version": "2026.1",
+      "priority": 10
+    },
+    {
+      "id": "R-TRADEIN",
+      "name": "京东以旧换新（示例）",
+      "type": "trade_in",
+      "regions": [
+        "全国"
+      ],
+      "categories": [
+        "手机",
+        "家电",
+        "笔记本",
+        "平板"
+      ],
+      "platforms": [
+        "jd"
+      ],
+      "requires_trade_in": true,
+      "flat_amount": 0,
+      "stage": 7,
+      "stack_group": "trade_in",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "description": "旧机估值按用户在比价上下文中填写的金额计入，整单抵扣一次。",
+      "source": "示例政策",
+      "version": "2026.1",
+      "priority": 30
+    }
+  ],
+  "price_history": {
+    "O001-JD": {
+      "seed": 93348,
+      "fake_drop": false
+    },
+    "O001-TB": {
+      "seed": 88152,
+      "fake_drop": false
+    },
+    "O001-PDD": {
+      "seed": 81762,
+      "fake_drop": true
+    },
+    "O001-DY": {
+      "seed": 25733,
+      "fake_drop": false
+    },
+    "O002-JD": {
+      "seed": 98649,
+      "fake_drop": false
+    },
+    "O002-TB": {
+      "seed": 87126,
+      "fake_drop": false
+    },
+    "O002-PDD": {
+      "seed": 2226,
+      "fake_drop": false
+    },
+    "O002-DY": {
+      "seed": 49617,
+      "fake_drop": false
+    },
+    "O003-JD": {
+      "seed": 34792,
+      "fake_drop": false
+    },
+    "O003-TB": {
+      "seed": 12257,
+      "fake_drop": false
+    },
+    "O003-PDD": {
+      "seed": 31678,
+      "fake_drop": false
+    },
+    "O003-DY": {
+      "seed": 39518,
+      "fake_drop": false
+    },
+    "O004-JD": {
+      "seed": 27922,
+      "fake_drop": false
+    },
+    "O004-TB": {
+      "seed": 71795,
+      "fake_drop": false
+    },
+    "O004-PDD": {
+      "seed": 32870,
+      "fake_drop": false
+    },
+    "O004-DY": {
+      "seed": 9805,
+      "fake_drop": false
+    },
+    "O005-JD": {
+      "seed": 9332,
+      "fake_drop": false
+    },
+    "O005-TB": {
+      "seed": 12504,
+      "fake_drop": false
+    },
+    "O005-PDD": {
+      "seed": 54930,
+      "fake_drop": false
+    },
+    "O005-DY": {
+      "seed": 77455,
+      "fake_drop": false
+    },
+    "O006-JD": {
+      "seed": 82835,
+      "fake_drop": false
+    },
+    "O006-TB": {
+      "seed": 35057,
+      "fake_drop": false
+    },
+    "O006-PDD": {
+      "seed": 18409,
+      "fake_drop": false
+    },
+    "O006-DY": {
+      "seed": 40997,
+      "fake_drop": false
+    },
+    "O007-JD": {
+      "seed": 34993,
+      "fake_drop": false
+    },
+    "O007-TB": {
+      "seed": 2704,
+      "fake_drop": false
+    },
+    "O007-PDD": {
+      "seed": 82273,
+      "fake_drop": false
+    },
+    "O007-DY": {
+      "seed": 63351,
+      "fake_drop": false
+    },
+    "O008-JD": {
+      "seed": 92438,
+      "fake_drop": false
+    },
+    "O008-TB": {
+      "seed": 62567,
+      "fake_drop": false
+    },
+    "O008-PDD": {
+      "seed": 28267,
+      "fake_drop": false
+    },
+    "O008-DY": {
+      "seed": 17139,
+      "fake_drop": false
+    },
+    "O009-JD": {
+      "seed": 28208,
+      "fake_drop": false
+    },
+    "O009-TB": {
+      "seed": 29801,
+      "fake_drop": false
+    },
+    "O009-PDD": {
+      "seed": 86252,
+      "fake_drop": false
+    },
+    "O009-DY": {
+      "seed": 37208,
+      "fake_drop": false
+    },
+    "O010-JD": {
+      "seed": 68334,
+      "fake_drop": false
+    },
+    "O010-TB": {
+      "seed": 88810,
+      "fake_drop": false
+    },
+    "O010-PDD": {
+      "seed": 52346,
+      "fake_drop": false
+    },
+    "O010-DY": {
+      "seed": 39241,
+      "fake_drop": false
+    },
+    "O011-JD": {
+      "seed": 1276,
+      "fake_drop": true
+    },
+    "O011-TB": {
+      "seed": 48490,
+      "fake_drop": false
+    },
+    "O011-PDD": {
+      "seed": 62884,
+      "fake_drop": false
+    },
+    "O011-DY": {
+      "seed": 3620,
+      "fake_drop": false
+    },
+    "O012-JD": {
+      "seed": 68488,
+      "fake_drop": false
+    },
+    "O012-TB": {
+      "seed": 89899,
+      "fake_drop": false
+    },
+    "O012-PDD": {
+      "seed": 72914,
+      "fake_drop": false
+    }
+  }
+}

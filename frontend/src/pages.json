@@ -1,0 +1,91 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "价策",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/discover/discover",
+      "style": {
+        "navigationBarTitleText": "比价",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/cart/cart",
+      "style": {
+        "navigationBarTitleText": "购物车",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/compare/compare",
+      "style": {
+        "navigationBarTitleText": "比价详情",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/strategy/strategy",
+      "style": {
+        "navigationBarTitleText": "购买策略",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/history/history",
+      "style": {
+        "navigationBarTitleText": "价格走势",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/subsidy/subsidy",
+      "style": {
+        "navigationBarTitleText": "国补计算器",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7C8798",
+    "selectedColor": "#B87416",
+    "backgroundColor": "#FBF8F1",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "比价"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "价策",
+    "navigationBarBackgroundColor": "#F6F3EC",
+    "backgroundColor": "#F6F3EC",
+    "navigationStyle": "custom"
+  }
+}

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/.venv/
+backend/data/*.db
+backend/.pytest_cache/
+backend/.ruff_cache/
+
+# Node / uni-app
+frontend/node_modules/
+frontend/dist/
+frontend/unpackage/
+frontend/.hbuilderx/
+npm-debug.log*
+pnpm-debug.log*
+
+# Local env / editor
+.env
+.env.local
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Local runtime (portable Node, downloaded archives)
+tools/
+*.zip
+
+# Generated screenshots / recordings
+demo-output/
